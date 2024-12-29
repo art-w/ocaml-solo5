@@ -38,5 +38,6 @@ FILE *fopen(const char *, const char *);
 int fclose(FILE *);
 int puts(const char *);
 int putchar(int);
+int __fprintf_chk(FILE *, int, const char *);
 
 #endif

@@ -60,6 +60,7 @@ STUB_WARN_ONCE(int, putc, EOF);
 STUB_WARN_ONCE(int, ferror, 1);
 STUB_WARN_ONCE(int, fopen, 1);
 STUB_WARN_ONCE(int, fclose, 1);
+STUB_WARN_ONCE(int, __fprintf_chk, 1);
 
 /* stdlib.h */
 STUB_WARN_ONCE(char *, getenv, NULL);
